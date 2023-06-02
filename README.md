@@ -9,7 +9,7 @@ Esta página web utiliza Django y la base de datos SQLite3.
    ```shell
     python manage.py runserver
      ```
-     Esta línea muestra cómo se ejecuta el comando en la línea de comandos (cmd) y permite iniciar el servidor de desarrollo de Django.
+     Este comando se ejecuta en la línea de comandos (cmd) y permite iniciar el servidor de desarrollo de Django.
 
 4. Abre el siguiente enlace en tu navegador: [http://localhost:8000/](http://localhost:8000/)
 Esto te llevará a la página principal de la tienda de productos de Shrek.
