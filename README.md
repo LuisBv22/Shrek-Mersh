@@ -6,8 +6,6 @@ Esta página web utiliza Django y la base de datos SQLite3.
 1. Asegúrate de tener Django instalado.
 2. Abre la terminal y navega hasta la carpeta donde se encuentra el programa.
 3. Ejecuta el siguiente comando para iniciar el servidor local:
-
-   ```markdown
    ```shell
     python manage.py runserver
      ```
