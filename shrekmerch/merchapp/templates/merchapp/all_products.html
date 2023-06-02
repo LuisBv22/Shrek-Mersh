@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shrek Merch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #D5DE2E; /* Color del cuerpo */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        h1 {
+            color: #523213; /* Color del título de la cabecera */
+            background-color: #B0C400; /* Color de la cabecera */
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .product {
+            width: 300px;
+            border-radius: 15px; /* Bordes curvos */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra para dar un efecto de "tarjeta" */
+            margin: 10px;
+            background-color: white; /* Fondo blanco para que se destaque contra el color del cuerpo */
+            overflow: hidden; /* Para asegurar que nada sobrepase los bordes curvos */
+        }
+        .product img {
+            width: 100%;
+        }
+        .product-info {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shrek Merch</h1>
+    {% for product in products %}
+        <div class="product">
+            <img src="{{ product.image.url }}">
+            <div class="product-info">
+                <h2>{{ product.name }}</h2>
+                <p>${{ product.price }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</body>
+</html>
+
