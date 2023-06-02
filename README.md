@@ -7,7 +7,9 @@ Esta página web utiliza Django y la base de datos SQLite3
 2. Abre la terminal y navega hasta la carpeta donde se encuentra el programa.
 3. Ejecuta el siguiente comando para iniciar el servidor local:
 
-python manage.py runserver
+   ```bash
+   python manage.py runserver
+   Este comando iniciará el servidor de desarrollo de Django.
 
 
 4. Abre el siguiente enlace en tu navegador: [http://localhost:8000/](http://localhost:8000/)
