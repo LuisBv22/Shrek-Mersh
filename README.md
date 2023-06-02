@@ -2,11 +2,19 @@
 Página para venta de productos de Shrek
 Esta página web utiliza Django y la base de datos SQLite3
 
-# Como usar
-Para utilizarla es necesario tener Django.
-Para ejecutarla es necesario abrir desde el cmd en la carpeta donde se tiene el progroma y ejecutar el siguiene comando:
+## Como usar
+1. Asegúrate de tener Django instalado.
+2. Abre la terminal y navega hasta la carpeta donde se encuentra el programa.
+3. Ejecuta el siguiente comando para iniciar el servidor local:
+
 python manage.py runserver
-Y abrir en el navegador el enalce: http://localhost:8000/
-Para ejecutar como adminsitrador se debe de abrir el enlace: http://localhost:8000/admin/
-En el modo administrador se puede agregar articulos a la página. 
+
+
+4. Abre el siguiente enlace en tu navegador: [http://localhost:8000/](http://localhost:8000/)
+Esto te llevará a la página principal de la tienda de productos de Shrek.
+
+5. Para acceder al modo administrador, abre el siguiente enlace en tu navegador: [http://localhost:8000/admin/](http://localhost:8000/admin/)
+Aquí podrás agregar nuevos artículos a la página.
+
+
 
